@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec6f9d-a8d2-413d-a1d2-2a72e0ba4bb2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini_Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NotesProject/ListNotes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NotesProject/UI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NotesProject/UI.java" afterDir="false" />
+    <list default="true" id="f9ec6f9d-a8d2-413d-a1d2-2a72e0ba4bb2" name="Changes" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Classes/AppFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Classes/ButtonPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Classes/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Classes/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Classes/TitleBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Classes/TodoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotesProject/ListNotes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotesProject/UI.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotesProject/UI.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +36,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HLcsSwAuPSLBRapHEk2RkdqnlR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,11 +52,21 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Run" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="Mini_Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,8 +77,25 @@
       <updated>1668068010805</updated>
       <workItem from="1668068012358" duration="624000" />
       <workItem from="1668149669042" duration="1954000" />
-      <workItem from="1668248865610" duration="660000" />
+      <workItem from="1668248865610" duration="3971000" />
+      <workItem from="1668310403984" duration="12167000" />
+      <workItem from="1668329110717" duration="10341000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1668250234752</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668250234752</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init commit">
+      <created>1668250247955</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668250247955</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,12 +104,63 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="851c051b-2f0d-4d08-a31b-44d08789c43c">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="851c051b-2f0d-4d08-a31b-44d08789c43c" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Mini_Project$Run.ic" NAME="Run Coverage Results" MODIFIED="1668339850692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
