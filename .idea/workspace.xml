@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec6f9d-a8d2-413d-a1d2-2a72e0ba4bb2" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/AppFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/ButtonPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/TitleBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/TodoList.java" afterDir="false" />
+    <list default="true" id="f9ec6f9d-a8d2-413d-a1d2-2a72e0ba4bb2" name="Changes" comment="add task feature">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NotesProject/ListNotes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NotesProject/UI.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NotesProject/UI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/AppFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/AppFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/ButtonPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/ButtonPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/TitleBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/TitleBar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +74,12 @@
       <workItem from="1668149669042" duration="1954000" />
       <workItem from="1668248865610" duration="3971000" />
       <workItem from="1668310403984" duration="12167000" />
-      <workItem from="1668329110717" duration="10341000" />
+      <workItem from="1668329110717" duration="10747000" />
+      <workItem from="1668386684128" duration="593000" />
+      <workItem from="1668391431870" duration="1864000" />
+      <workItem from="1668489981500" duration="6339000" />
+      <workItem from="1668568131612" duration="8595000" />
+      <workItem from="1668580319222" duration="1538000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1668250234752</created>
@@ -95,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668250247955</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add task feature">
+      <created>1668340970034</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668340970034</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,9 +165,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="add task feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="add task feature" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Mini_Project$Run.ic" NAME="Run Coverage Results" MODIFIED="1668339850692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Mini_Project$Run.ic" NAME="Run Coverage Results" MODIFIED="1668569430719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
