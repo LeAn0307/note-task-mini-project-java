@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.net.URL;
 
 public class AppFrame extends JFrame {
     private TitleBar title;
@@ -18,6 +19,10 @@ public class AppFrame extends JFrame {
         this.setSize(400, 700);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
+        setTitle("Task Note App");
+        URL url = getClass().getResource("../logo.png"); //logo for frame
+        ImageIcon imgicon = new ImageIcon(url);
+        super.setIconImage(imgicon.getImage());
 
         //init variable
         title = new TitleBar();

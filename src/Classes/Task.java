@@ -9,7 +9,6 @@ public class Task extends JPanel {
     private JLabel index;
     private JTextField taskName;
     private JButton done;
-
     private boolean checked;
 
     public Task() {

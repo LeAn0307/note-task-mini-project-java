@@ -5,9 +5,10 @@ import java.awt.*;
 
 public class List extends JPanel {
     List(){
-        this.setLayout(new GridLayout(10,1,0,5));
-        this.setBackground( new Color(231,241,169));
+        this.setLayout(new GridLayout(10,1,10,10));
+//        this.setBackground( new Color(231,241,169));
 
+        this.setBackground(Color.white);
     }
    //    Update Index
     public void UpdateNumber(){

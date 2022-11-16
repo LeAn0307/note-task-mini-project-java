@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f9ec6f9d-a8d2-413d-a1d2-2a72e0ba4bb2" name="Changes" comment="add task feature">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Classes/AppFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/AppFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Classes/ButtonPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/ButtonPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Classes/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/List.java" afterDir="false" />
@@ -51,6 +53,11 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;oracle&quot;
+    ]
   }
 }</component>
   <component name="RunManager">
@@ -79,7 +86,8 @@
       <workItem from="1668391431870" duration="1864000" />
       <workItem from="1668489981500" duration="6339000" />
       <workItem from="1668568131612" duration="8595000" />
-      <workItem from="1668580319222" duration="1538000" />
+      <workItem from="1668580319222" duration="9044000" />
+      <workItem from="1668607137707" duration="2072000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1668250234752</created>
@@ -169,6 +177,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add task feature" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Mini_Project$Run.ic" NAME="Run Coverage Results" MODIFIED="1668569430719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Mini_Project$Run.ic" NAME="Run Coverage Results" MODIFIED="1668597333174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
